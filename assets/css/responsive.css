@@ -12,10 +12,13 @@
   #nav li:first-child {
     width: fit-content;
   }
-  #nav li:not(:first-child) a {
+  #nav li a {
     width: 100%;
   }
-
+  #nav .subnav {
+    position: relative;
+    right: 320px;
+  }
   #header {
     overflow: hidden;
   }
@@ -27,14 +30,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
   }
   #content .member-item {
-    margin-top: 20px;
+    margin-top: 10%;
   }
   #content .member-item .member-img {
     margin: 15px 0;
     border-radius: 10px;
-    width: 230px;
+    width: 100%;
     height: auto;
     align-items: center;
   }
@@ -50,5 +54,32 @@
     height: auto;
     margin-bottom: 15px;
     clear: both;
+  }
+  .contact-section {
+    background-color: white;
+    padding: 64px 0px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+  .info .contact-input .two-col {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+  }
+  .info .contact-input .send-button {
+    position: absolute;
+    bottom: -50%;
+    background-color: black;
+    padding: 8px 16px;
+    color: white;
+    border: none;
+  }
+  .info .send-button:hover {
+    background-color: grey;
+    color: black;
+    cursor: pointer;
   }
 }

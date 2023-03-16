@@ -126,6 +126,7 @@ html {
   color: black;
   padding: 0px 16px;
   line-height: 38px;
+  width: 100%;
 }
 
 #slider {
