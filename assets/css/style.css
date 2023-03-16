@@ -97,10 +97,6 @@ html {
   color: black;
 }
 
-#nav > li:hover > ul {
-  display: block;
-}
-
 #nav .nav-arrow-down {
   font-size: 10px;
 }
@@ -127,6 +123,31 @@ html {
   padding: 0px 16px;
   line-height: 38px;
   width: 100%;
+}
+
+.display-block {
+  display: block;
+}
+
+#subnav-mobile {
+  position: relative;
+
+  background-color: white;
+  width: 100%;
+}
+#subnav-mobile li a {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  width: 100%;
+}
+#subnav-mobile li {
+  border-bottom: 1px solid rgb(0, 0, 0, 0.5);
+  width: 100%;
+}
+#subnav-mobile li a:hover {
+  background-color: gray;
+  color: white;
 }
 
 #slider {

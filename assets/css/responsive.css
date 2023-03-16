@@ -2,6 +2,12 @@
   #header .mobile-menu {
     display: none;
   }
+  #nav > li:hover > ul {
+    display: block;
+  }
+  #subnav-mobile {
+    display: none;
+  }
 }
 
 /* MOBILE */
@@ -9,16 +15,18 @@
   #nav {
     display: block;
   }
-  #nav li:first-child {
+  #nav > li:first-child {
     width: fit-content;
   }
   #nav li a {
     width: 100%;
   }
+
   #nav .subnav {
     position: relative;
     right: 320px;
   }
+
   #header {
     overflow: hidden;
   }
